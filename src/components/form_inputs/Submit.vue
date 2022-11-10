@@ -1,5 +1,5 @@
 <template>
-    <input type="submit" value="Enviar">
+    <input type="submit" class="btn btn-primary" value="Enviar">
 </template>
 
 <script>
