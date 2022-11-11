@@ -1,16 +1,14 @@
 <template>
-  <div class="container-fluid">
-    <div class="row">
+    <Header />
+  <Picture />
 
-      <div class="col-2">
-        <Picture/>
-      </div>
-    </div>
+  <div>
     <h1>Ola Mundo!</h1>
-    <PrimeiroComponente />
-    <LifeCycle />
-    <pessoa />
   </div>
+
+  <PrimeiroComponente />
+  <LifeCycle />
+  <pessoa />
 </template>
 
 <script>
@@ -18,6 +16,7 @@ import PrimeiroComponente from "./components/PrimeiroComponente.vue";
 import LifeCycle from "./components/LifeCycle.vue";
 import Pessoa from "./components/Pessoa.vue";
 import Picture from "./components/Picture.vue";
+import Header from "./components/Header.vue";
 
 export default {
   name: "App",
@@ -26,6 +25,7 @@ export default {
     LifeCycle,
     Pessoa,
     Picture,
+    Header,
   },
 };
 </script>

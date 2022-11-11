@@ -15,11 +15,18 @@ export default{
             this.nome = "Joao"
         }, 1000)
         
+        
     },
     mounted(){
         setTimeout(() => {
             this.nome = "Bernardino"
         }, 2000)
+        this.executar()
+    },
+    methods:{
+        executar(){
+            console.log('executou aaaaa');
+        }
     }
 }
 

@@ -1,5 +1,7 @@
 <template>
-    <img :src="logo" alt="">
+    <div class="col-md-12">
+        <img :src="logo" alt="">    
+    </div>
 </template>
 
 <script>
