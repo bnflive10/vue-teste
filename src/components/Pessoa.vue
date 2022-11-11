@@ -1,7 +1,7 @@
 <template>
     <div class="col-12">
         pessoa: {{nome}}
-        <info/>
+        <info compEmail="props email bnflive10@gmail.com"/>
         <Formulario/>
     </div>
 </template>
